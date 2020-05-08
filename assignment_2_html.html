@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div align="center">
+        <img src="fariya_images/assignment_2_logo-logo.png" alt="saylani logo">
+        <h3> STUDENT REGISTRATION FORM</h3>
+    </div>
+    <br />
+
+
+    <br />
+    <div align="center">
+        <form  action="submit.html">
+            <table>
+                <tr>
+                    <td><label for=" name"> First Name</label></td>
+
+                    <td><input class="pk" id="firstname" type="text" name="firstname" pattern="[A-Za-z]*" maxlength="30"
+                            placeholder='Enter First Name' title=" only a-z and A-Z charecters are acceptable" />
+                        <label> (max 30 characters a-z and A-Z)</label>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><label for="name">last Name </label> </td>
+                    <td><input class="pk" type="text" id="lastname"
+                         name="lastname" pattern="[A-Za-z]*" maxlength="30"
+                            placeholder='Enter Last Name'
+                             title=" only a-z and A-Z charecters are acceptable">
+                        <label> (max 30 characters a-z and A-Z)</label>
+                    </td>
+
+                    <td></td>
+                </tr>
+                <tr>
+
+                    <td><label for="date">Date Of Birth</label></td>
+                    <td> <select name="date" id="date">
+                            <option value="date">Date</option>
+                            <option value="date">1</option>
+                            <option value="date">2</option>
+                            <option value="date">3</option>
+                            <option value="date">4</option>
+                            <option value="date">5</option>
+                            <option value="date">6</option>
+                            <option value="date">7</option>
+                            <option value="date">8</option>
+                            <option value="date">9</option>
+                            <option value="date">10</option>
+                            <option value="date">11</option>
+                            <option value="date">12</option>
+                            <option value="date">13</option>
+                            <option value="date">14</option>
+                            <option value="date">15</option>
+                            <option value="date">16</option>
+                            <option value="date">17</option>
+                            <option value="date">18</option>
+                            <option value="date">19</option>
+                            <option value="date">20</option>
+                            <option value="date">21</option>
+                            <option value="date">22</option>
+                            <option value="date">23</option>
+                            <option value="date">24</option>
+                            <option value="date">25</option>
+                            <option value="date">26</option>
+                            <option value="date">27</option>
+                            <option value="date">28</option>
+                            <option value="date">29</option>
+                            <option value="date">30</option>
+                            <option value="date">31</option>
+
+                        </select>
+                        <select name="month" id="month">
+                            <option value="month">Month</option>
+                            <option value="month">1</option>
+                            <option value="month">2</option>
+                            <option value="month">3</option>
+                            <option value="month">4</option>
+                            <option value="month">5</option>
+                            <option value="month">6</option>
+                            <option value="month">7</option>
+                            <option value="month">8</option>
+                            <option value="month">9</option>
+                            <option value="month">10</option>
+                            <option value="month">11</option>
+                            <option value="month">12</option>
+
+
+                        </select>
+
+                        <select name="year" id="year">
+
+                            <option value="year">Year</option>
+                            <option value="year">1972</option>
+                            <option value="year">1973</option>
+                            <option value="year">1974</option>
+                            <option value="year">1975</option>
+                            <option value="year">1976</option>
+                            <option value="year">1977</option>
+                            <option value="year">1978</option>
+                            <option value="year">1979</option>
+                            <option value="year">1980</option>
+                            <option value="year">1981</option>
+                            <option value="year">1982</option>
+                            <option value="year">1983</option>
+                            <option value="year">1984</option>
+                            <option value="year">1985</option>
+                            <option value="year">1986</option>
+                            <option value="year">1987</option>
+                            <option value="year">1988</option>
+                            <option value="year">1989</option>
+                            <option value="year">1990</option>
+                            <option value="year">1991</option>
+                            <option value="year">1992</option>
+                            <option value="year">1993</option>
+                            <option value="year">1994</option>
+                            <option value="year">1995</option>
+                            <option value="year">1996</option>
+                            <option value="year">1997</option>
+                            <option value="year">1998</option>
+                            <option value="year">1999</option>
+                            <option value="year">2000</option>
+                            <option value="year">2001</option>
+                            <option value="year">2002</option>
+
+                        </select></td>
+                    <td></td>
+                </tr>
+                <tr>
+
+                    <td> <label>Email id</label> </td>
+                    <td> <input class="pk" type="email"
+                         placeholder="Enter Email address"></td>
+                    <td></td>
+
+                </tr>
+                <tr>
+
+                    <td> <label>Mobile Number</label> </td>
+                    <td> <input class="pk" placeholder="Enter Mobiler Number"
+                         pattern="[0-9]*" maxlength="10"
+                            type="text">
+                        <label>(10 digit number)</label>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+
+
+
+                    <td><label>Gender:</label></td>
+                    <td> <input class="pk" id="male" type="radio" name="gender" value="male">
+                        <label for="male">Male</label>
+                        <input class="pk" id="female" type="radio"
+                         name="gender" value="female">
+                        <label for="female">Female</label>
+                    </td>
+                    <td></td>
+
+                </tr>
+                <tr>
+
+                    <td><label>Address:</label></td>
+                    <td colspan="2"> <textarea name="comments" cols="30" rows="4"
+                            placeholder="Enter your Address..."></textarea></td>
+
+                </tr>
+                <tr>
+                    <td><label for="name">City</label> </td>
+                    <td><input class="pk" id="firstname" 
+                        type="text" name="firstname" pattern="[A-Za-z]*" maxlength="30"
+                            placeholder='Enter City Name' 
+                            title=" only a-z and A-Z charecters are acceptable" />
+                        <label> (max 30 characters a-z and A-Z)</label>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><label for="name">PIN Code</label> </td>
+                    <td><input class="pk" id="firstname"
+                         type="text" name="firstname" pattern="[0-9]*" maxlength="6"
+                            placeholder='Enter PIN code'
+                             title=" only numbers are acceptable" />
+                        <label> (6 deigit number) </label>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><label for="name">State</label> </td>
+                    <td><input class="pk" id="firstname"
+                         type="text" name="firstname" placeholder='Enter State'
+                            pattern="[A-Za-z]*"
+                            maxlength="30"
+                             title=" only a-z and A-Z charecters are acceptable" />
+                        <label> (max 30 characters a-z and A-Z) </label>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><label for="name">Country</label> </td>
+                    <td><input class="pk"
+                         id="firstname" type="text"
+                          name="firstname" placeholder='Enter Country'
+                            pattern="[A-Za-z]*" maxlength="30" 
+                            title=" only a-z and A-Z charecters are acceptable" />
+                        <label> (max 30 characters a-z and A-Z)</label>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Hobbies</label>
+                    </td>
+                    <td colspan="2">
+                        <input class="pk" type="checkbox" name="service"
+                         value="Stitching" /> Stitching
+                        <input class="pk" type="checkbox" name="service" 
+                        value=" Cooking" /> Cooking
+                        <input class="pk" type="checkbox" name="service" 
+                        value=" Singing" /> Singing
+                        <input class="pk" type="checkbox" 
+                        name="service" value="Painting" /> Painting
+                        <br>
+                        <input class="pk" type="checkbox" name="service"
+                         value="others" /> others
+                        <input class="pk" type="test" name="service" />
+                    </td>
+
+                </tr>
+                <tr>
+                    <td><label>QUALIFICATION</label> </td>
+                    <td colspan="2">
+
+                        <table>
+                            <tr>
+                                <th>S.NO</th>
+                                <th>Examination</th>
+                                <th>Board</th>
+                                <th>Percentage</th>
+                                <th>Year of passing</th>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>Class X</td>
+                                <td>
+
+
+                                    <input type="text" id="exam" name="exam"
+                                     pattern="[A-Za-z0-9]*" maxlength="10"
+                                        title=" only charecters are acceptable">
+
+                                </td>
+                                <td>
+
+
+                                    <input type="text" id="exam" name="exam"
+                                     pattern="[0-9]*" maxlength="2"
+                                        title=" only 2 digits are acceptable">
+
+                                </td>
+                                <td>
+
+
+                                    <input type="text" id="exam" name="exam">
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Class XII</td>
+                                <td>
+                                    <input type="text" id="exam" name="exam" 
+                                    pattern="[A-Za-z0-9]*" maxlength="10"
+                                        title=" only charecters are acceptable">
+
+                                </td>
+                                <td>
+
+
+                                    <input type="text" id="exam" name="exam"
+                                     pattern="[0-9]*" maxlength="2"
+                                        title=" only 2 digits are acceptable">
+
+                                </td>
+                                <td>
+
+
+                                    <input type="text" id="exam" name="exam">
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Graduation</td>
+                                <td>
+
+
+                                    <input type="text" id="exam" name="exam" 
+                                    pattern="[A-Za-z0-9]*" maxlength="10"
+                                        title=" only charecters are acceptable">
+
+                                </td>
+                                <td>
+
+
+                                    <input type="text" id="exam" name="exam" 
+                                    pattern="[0-9]*" maxlength="2"
+                                        title=" only 2 digits are acceptable">
+
+                                </td>
+                                <td>
+
+
+                                    <input type="text" id="exam" name="exam">
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Masters</td>
+                                <td>
+
+
+                                    <input type="text" id="exam" name="exam" pattern="[A-Za-z0-9]*" maxlength="10"
+                                        title=" only charecters are acceptable">
+
+                                </td>
+                                <td>
+
+
+                                    <input type="text" id="exam" name="exam" pattern="[0-9]*" maxlength="2"
+                                        title=" only 2 digits are acceptable">
+
+                                </td>
+                                <td>
+
+
+                                    <input type="text" id="exam" name="exam">
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td><label>(10 char max)</label></td>
+                                <td><label>(upto 2 decimal)</label></td>
+                                <td></td>
+                            </tr>
+                        </table>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td><label>COUURSES <br>
+                            APPLIED FOR</label></td>
+
+                    <td>
+                        <input class="pk" id="bca" type="radio" name="course" value="bca">
+                        <label for="bca">BCA</label>
+                        <input class="pk" id="bcom" type="radio" name="course" value="bcom">
+                        <label for="bcom">B.Com</label>
+                        <input class="pk" id="bsc" type="radio" name="course" value="bsc">
+                        <label for="bsc">B.Sc</label>
+                        <input class="pk" id="ba" type="radio" name="course" value="ba">
+                        <label for="ba">B.A</label>
+
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+
+                    <td colspan="3" align="center"> <button type="submit" 
+                        value="Submit">Submit</button>
+                        <button type="reset" value="Reset">Reset</button></td>
+
+                </tr>
+            </table>
+        </form>
+    </div>
+
+</body>
+
+</html>
